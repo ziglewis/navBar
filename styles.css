@@ -47,6 +47,10 @@ html, body{
     padding: 5px 2%;
 }
 
+.features div:nth-child(1){
+    display: none;
+}
+
 .logo-and-minimize-button {
     display: flex;
     gap: 10%;
@@ -57,9 +61,15 @@ html, body{
     flex-basis: 300px; */
 }
 
+
 .min{
     margin: auto;
     order: 2;
+    position: fixed;
+    left: 88%;
+    top: 3%;
+    display: none;
+
 }
 
 .content {
