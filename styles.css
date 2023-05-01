@@ -1,0 +1,68 @@
+
+
+html, body{
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0px;
+    background-color: rgb(20, 19, 19);
+    padding: 2%;
+   /* color: beige; */
+   
+    color: rgba(255, 217, 0, 0.932);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    line-height: 3rem;
+
+
+}
+
+
+.container {
+    display: flex;
+    gap: 5%;
+    background-color: rgba(255, 217, 0);
+    border-bottom: 10px double rgb(20, 19, 19);
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    color: black;
+    z-index: 2;
+    font-style:oblique;
+    flex: 1;
+
+}
+
+.features {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto 5%;
+    width: 100%;
+    font-size: larger;
+    order: 1;
+  
+}
+
+.features > div{
+    padding: 5px 2%;
+}
+
+.logo-and-minimize-button {
+    display: flex;
+    gap: 10%;
+    margin: auto 2%;
+    padding: 3px;
+    /*flex-shrink: 3;
+    flex-grow: 2;
+    flex-basis: 300px; */
+}
+
+.min{
+    margin: auto;
+    order: 2;
+}
+
+.content {
+    padding-top: 100px;
+    text-align: justify;
+}
