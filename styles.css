@@ -62,13 +62,13 @@ html, body{
 }
 
 
-.min{
+#min-btn{
     margin: auto;
     order: 2;
     position: fixed;
     left: 88%;
     top: 3%;
-    display: none;
+    /* display: none; */
 
 }
 
@@ -76,3 +76,65 @@ html, body{
     padding-top: 100px;
     text-align: justify;
 }
+
+#menu-bar {
+    width: auto;
+    background-color: rgba(255, 217, 0, 0.932);
+    color: rgb(20, 19, 19);
+    padding: 150px 70px;
+    text-align: justify;
+    font-size: x-large;
+    font-weight: bold;
+    line-height: 4rem;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 5%;
+    z-index: 1;
+    display: none;
+    transition: 1s;
+}
+
+#menu-bar div:nth-child(1){
+    position: fixed;
+    font-size: xx-large;
+    left: 180px;
+    top: 130px;
+    color: black;
+    
+
+}
+
+
+
+footer{
+    margin-top: 1%;
+    background-color: rgba(255, 217, 0, 0.322);
+    border-radius: 70%  45%;
+    color: rgb(20, 19, 19);
+   }
+   h4{
+    text-align: center;
+    font-size: larger;
+   }
+   
+
+   .fab{
+    color: rgb(20, 19, 19);
+    font-size: xx-large;
+    margin-top: 5%;
+
+   }
+
+   .fab:hover{
+    color: rgba(255, 217, 0, 0.932);
+   }
+
+   .social-icons, .address{
+    display: flex;
+    
+    justify-content: center;
+    gap: 10%;
+    margin: 1% auto 10px;
+   }
