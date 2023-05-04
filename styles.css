@@ -1,7 +1,9 @@
 
+ * { border: 2px solid red;} 
+
 
 html, body{
-    height: 100%;
+    height: auto;
     box-sizing: border-box;
     margin: 0px;
     background-color: rgb(20, 19, 19);
